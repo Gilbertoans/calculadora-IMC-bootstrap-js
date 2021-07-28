@@ -1,2 +1,2 @@
 # calculadora-IMC-bootstrap-js
-calculadora IMC feira em javascript e bootstrap
+calculadora IMC feita em javascript e bootstrap
