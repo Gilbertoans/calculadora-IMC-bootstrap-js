@@ -26,28 +26,32 @@ function gerarCalcular() {
 
   if (valorIMC < 16) {
     resultado.textContent =
-      'Seu IMC é: ' + valorIMC + '  Baixo peso muito grave'
+      nome + ' seu IMC é: ' + valorIMC + '  Baixo peso muito grave'
   }
   if (valorIMC >= 16 && valorIMC <= 16.99) {
-    resultado.textContent = 'Seu IMC é: ' + valorIMC + '  Baixo peso Grave'
+    resultado.textContent =
+      nome + ' seu IMC é: ' + valorIMC + '  Baixo peso Grave'
   }
   if (valorIMC >= 17 && valorIMC <= 18.49) {
-    resultado.textContent = 'Seu IMC é: ' + valorIMC + '  Baixo peso'
+    resultado.textContent = nome + ' seu IMC é: ' + valorIMC + '  Baixo peso'
   }
   if (valorIMC >= 18.5 && valorIMC <= 24.99) {
-    resultado.textContent = 'Seu IMC é: ' + valorIMC + '  Peso Normal'
+    resultado.textContent = nome + ' seu IMC é: ' + valorIMC + '  Peso Normal'
   }
   if (valorIMC >= 25 && valorIMC <= 29.99) {
-    resultado.textContent = 'Seu IMC é: ' + valorIMC + '  Sobrepeso'
+    resultado.textContent = nome + ' seu IMC é: ' + valorIMC + '  Sobrepeso'
   }
   if (valorIMC >= 30 && valorIMC <= 34.99) {
-    resultado.textContent = 'Seu IMC é: ' + valorIMC + '  Obesidade Grau 1'
+    resultado.textContent =
+      nome + ' seu IMC é: ' + valorIMC + '  Obesidade Grau 1'
   }
   if (valorIMC >= 35 && valorIMC <= 39.99) {
-    resultado.textContent = 'Seu IMC é: ' + valorIMC + '  Obesidade Grau 2'
+    resultado.textContent =
+      nome + ' seu IMC é: ' + valorIMC + '  Obesidade Grau 2'
   }
   if (valorIMC >= 40) {
-    resultado.textContent = 'Seu IMC é: ' + valorIMC + '  Obesidade Grau 3'
+    resultado.textContent =
+      nome + ' seu IMC é: ' + valorIMC + '  Obesidade Grau 3'
   }
 }
 
